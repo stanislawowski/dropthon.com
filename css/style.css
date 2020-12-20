@@ -132,7 +132,6 @@ li {
   font-weight: 400;
   letter-spacing: 1px;
   line-height: 0;
-  margin-bottom: 0;
   padding: 30px 44px;
   border-radius: 5px;
   cursor: pointer;
@@ -331,10 +330,10 @@ li {
   text-align: center;
   background: #e88cea;
   margin-bottom: 42px;
-  -webkit-transition: .5s;
-  -moz-transition: .5s;
-  -o-transition: .5s;
-  transition: .5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
 }
 
 .footer-area .footer-copy-right p a {
@@ -467,13 +466,20 @@ li {
   display: inline-block;
 }
 
+.footer-area .footer-title h4 {
+  color: #000;
+  font-size: 18px;
+  margin-bottom: 48px;
+  font-weight: 700;
+}
+
 .pricing-card-area .single-card .card-top h4 {
   color: #6a56a6;
   font-size: 50px;
   font-weight: 500;
   margin-bottom: 26px;
   padding-right: 3px;
-  font-family: Poppins,sans-serif;
+  font-family: Poppins, sans-serif;
 }
 
 .pricing-card-area .single-card .card-top h4 span {
@@ -529,13 +535,6 @@ li {
 
 .section-title2 h2 {
   color: #fff;
-}
-
-.footer-area .footer-title h4 {
-  color: #000;
-  font-size: 18px;
-  margin-bottom: 48px;
-  font-weight: 700;
 }
 
 .footer-area .footer-copy-right {
