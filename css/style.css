@@ -336,11 +336,13 @@ li {
   transition: 0.5s;
 }
 
-.footer-area .footer-copy-right p a {
+.footer-area .footer-copy-right p a,
+.single-card .card-bottom p a {
   color: #f9218d;
 }
 
-.footer-area .footer-copy-right p a:hover {
+.footer-area .footer-copy-right p a:hover,
+.single-card .card-bottom p a:hover {
   color: #8f1bdc;
 }
 
