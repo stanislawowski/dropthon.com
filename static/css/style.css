@@ -4,6 +4,7 @@ body {
   font-style: normal;
   background-color: #fff5f5;
   overflow-x: hidden;
+  width: 100vw;
 }
 
 .skewed {
@@ -24,6 +25,12 @@ body {
 
 .w-70vw {
   width: 70vw;
+}
+
+.btns-lang {
+  position: absolute;
+  bottom: 2%;
+  right: 2%;
 }
 
 .title-main {
